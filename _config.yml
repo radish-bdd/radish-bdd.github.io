@@ -51,8 +51,6 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/radish-bdd
   - title: github
     url: http://github.com/radish-bdd
 
