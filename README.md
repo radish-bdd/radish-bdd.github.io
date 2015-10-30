@@ -1,3 +1,4 @@
+<<<<<<< 43a0c0893bcfabf0d260654c67ea1813c03fdeab
 Agency Jekyll theme
 ====================
 
@@ -28,3 +29,7 @@ View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-th
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+=======
+# radish-bdd.github.io
+radish-bdd project website
+>>>>>>> Initial commit
