@@ -1,0 +1,113 @@
+<!-- About Section -->
+    <section id="gettingstarted">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Getting started</h2>
+                    <h3 class="section-subheading text-muted">Write your first tests with radish in less then 5 minutes.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Step 1</h4>
+                                    <h4 class="subheading">Download radish</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">radish is available in PyPi. Use pip to install radish: <br>
+                                        <code>pip install radish-bdd</code>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Step 2</h4>
+                                    <h4 class="subheading">Create your first feature file</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">All your tests are written in the BDD gherkin language and saved as .feature files.
+                                    Let's name ours <i>calculator.feature</i>. A feature file is as simple as the following: <br>
+                                        <pre style="width: 400px">Feature: My first feature file using radish
+    In order to test my awesome software
+    I need an awesome BDD tool like radish
+    to test my software.
+
+    Scenario: Test my calculator
+        Given I have the numbers 5 and 6
+        When I sum them
+        Then I expect the result to be 11</pre>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Step 3</h4>
+                                    <h4 class="subheading">Write our steps</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Every line inside a Scenario is called a step. You have to provide a python function for every step in order to execute some code. Let's write our first step.py file:
+                                        <pre style="width: 500px; text-align: left; margin-left: -100px"># -*- coding: utf-8 -*-
+
+from radish import given, when, then
+
+@given("I have the numbers {number1:g} and {number2:g}")
+def have_numbers(step, number1, number2):
+    step.context.number1 = number1
+    step.context.number2 = number2
+
+@when("I sum them")
+def sum_numbers(step):
+    step.context.result = step.context.number1 + \
+        step.context.number2
+
+@then("I expect the result to be {result:g}")
+def expect_result(step, result):
+    assert step.context.result == result</pre>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Step 4</h4>
+                                    <h4 class="subheading">Run your tests</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Nothing more is needed - Let's run our tests: <br>
+                                        <code>radish calculator.feature</code>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Let's
+                                    <br>write more
+                                    <br>features!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,6 +1,6 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Steps
+subtitle: Learn about how to implement your test logic
 layout: default
 modal-id: 3
 date: 2014-07-16

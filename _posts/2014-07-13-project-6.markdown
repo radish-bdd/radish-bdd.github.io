@@ -1,6 +1,6 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Scenario Preconditions
+subtitle: How to use another Scenario as a precondition
 layout: default
 modal-id: 6
 date: 2014-07-15

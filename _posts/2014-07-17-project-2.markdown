@@ -1,6 +1,6 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Scenarios
+subtitle: Scenarios - The simplest way to write a test
 layout: default
 modal-id: 2
 date: 2014-07-17
