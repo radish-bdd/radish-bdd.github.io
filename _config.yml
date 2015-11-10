@@ -7,8 +7,6 @@ slogan: the root from red to green
 email: tuxtimo@gmail.com
 description: "Awesome python BDD tool and more"
 
-markdown: redcarpet
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
   #primary: fed136

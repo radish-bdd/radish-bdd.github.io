@@ -24,10 +24,10 @@ foo
 
 ## Some python code
 
-```python
+{% highlight python %}
 @step(r"Then I pass the test")
 def pass_test(step):
     if step.context is None:
         return True
     assert False, "this is a bug"
-```
+{% endhighlight %}
