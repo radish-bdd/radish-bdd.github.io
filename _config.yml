@@ -3,6 +3,7 @@ baseurl:
 
 # Site settings
 title: radish
+slogan: the root from red to green
 email: tuxtimo@gmail.com
 description: "Awesome python BDD tool and more"
 
