@@ -56,6 +56,8 @@ social:
     url: http://github.com/radish-bdd
   - title: twitter
     url: http://twitter.com/radishbdd
+  - title: envelope
+    url: mailto:info@radish-bdd.io
 
 # Postal address (add as many lines as necessary)
 address:
