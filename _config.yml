@@ -54,6 +54,8 @@ people:
 social:
   - title: github
     url: http://github.com/radish-bdd
+  - title: twitter
+    url: http://twitter.com/radish-bdd
 
 # Postal address (add as many lines as necessary)
 address:

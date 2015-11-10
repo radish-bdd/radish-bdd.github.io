@@ -846,6 +846,10 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.entry {
+  text-align: left;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.color.primary }};
