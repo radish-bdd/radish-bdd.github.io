@@ -38,8 +38,7 @@
                                 <div class="timeline-body">
                                     <p class="text-muted">All your tests are written in the BDD gherkin language and saved as .feature files.
                                     Let's name ours <i>calculator.feature</i>. A feature file is as simple as the following: <br>
-                                        <pre style="width: 400px">
-                                            <code class="Gherkin">Feature: My first feature file using radish
+                                        <pre style="width: 420px; padding:0"><code class="Gherkin">Feature: My first feature file using radish
     In order to test my awesome software
     I need an awesome BDD tool like radish
     to test my software.
@@ -47,8 +46,7 @@
     Scenario: Test my calculator
         Given I have the numbers 5 and 6
         When I sum them
-        Then I expect the result to be 11</code>
-                                        </pre>
+        Then I expect the result to be 11</code></pre>
                                     </p>
                                 </div>
                             </div>
@@ -63,9 +61,8 @@
                                     <h4 class="subheading">Write our steps</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Every line inside a Scenario is called a step. You have to provide a python function for every step in order to execute some code. Let's create a new "radish" directory and write our first step.py file there:
-                                        <pre style="width: 500px; text-align: left; margin-left: -100px">
-                                            <code class="Python"># -*- coding: utf-8 -*-
+                                    <p class="text-muted" style="margin:0">Every line inside a Scenario is called a step. You have to provide a python function for every step in order to execute some code. Let's create a new "radish" directory and write our first step.py file there:
+                                            <pre style="width:510px; text-align: left; margin-left: -100px; padding:0"><code class="Python" style="margin:0;"># -*- coding: utf-8 -*-
 
 from radish import given, when, then
 
@@ -81,8 +78,7 @@ def sum_numbers(step):
 
 @then("I expect the result to be {result:g}")
 def expect_result(step, result):
-    assert step.context.result == result</code>
-                                        </pre>
+    assert step.context.result == result</code></pre>
                                     </p>
                                 </div>
                             </div>
