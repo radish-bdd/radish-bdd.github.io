@@ -4,7 +4,7 @@ baseurl:
 # Site settings
 title: radish
 slogan: the root from red to green
-email: tuxtimo@gmail.com
+email: tuxtimo+radish@gmail.com
 description: "Awesome python BDD tool and more"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -20,7 +20,7 @@ social:
   - title: github
     url: http://github.com/radish-bdd
   - title: twitter
-    url: http://twitter.com/tuxtimo
+    url: http://twitter.com/timofurrer
 
 # Build settings
 markdown: kramdown
